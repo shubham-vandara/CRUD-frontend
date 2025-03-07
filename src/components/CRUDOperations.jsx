@@ -3,7 +3,7 @@ import { FaRegEdit } from "react-icons/fa";
 import { MdOutlineDelete } from "react-icons/md";
 
 const CRUDOperations = () => {
-  const apiURL = "https://backend-crud.up.railway.app/frontUser";
+  const apiURL = import.meta.env.VITE_API_URL;
 
   // State management
   const [users, setUsers] = useState([]);
