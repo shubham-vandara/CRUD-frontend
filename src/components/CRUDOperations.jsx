@@ -5,8 +5,6 @@ import { MdOutlineDelete } from "react-icons/md";
 const CRUDOperations = () => {
   const apiURL = import.meta.env.VITE_API_URL;
 
-  console.log("API URL:", import.meta.env.VITE_API_URL);
-
   // State management
   const [users, setUsers] = useState([]);
   const [name, setName] = useState("");
